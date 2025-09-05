@@ -1,4 +1,5 @@
-from .abstract_pokemon import AbstractPokemon
+from abstract_pokemon import AbstractPokemon
+
 
 class AttackerPokemon(AbstractPokemon):
     def get_pokemon_attack_coef(self) -> float:
